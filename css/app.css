@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+#secondScreen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+#scoreboard {
+  width: 100%;
+  height: 135px;
+  background: url("../images/scoreCard.png") repeat-x center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+#scoreCard {
+  width: 310px;
+  height: 70px;
+  background: url("../images/scoreCardText.png") no-repeat center;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#ground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #8bbf01;
+  background-image: url("../images/groundSprite.png");
+  background-repeat: repeat-y;
+  background-position: center top;
+}
+#road {
+  width: 210px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 100%;
+}
+#startGame {
+  position: absolute;
+  z-index: 2;
+}
+#woman {
+  width: 60px;
+  height: 80px;
+  background: url("../images/woman.png");
+  position: absolute;
+  bottom: 0;
+}
+.dropElem {
+  position: absolute;
+  top: -64px;
+}
+.pointPlus,
+.pointMinus {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#minusSound,
+#plusSound {
+  display: none;
+}

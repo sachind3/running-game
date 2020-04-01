@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <button id="startGame">Start Game</button>
+
+    <div id="secondScreen">
+      <div id="scoreboard">
+        <div id="scoreCard"></div>
+      </div>
+      <div class="ground" id="ground">
+        <div class="road" id="road">
+          <div id="woman"></div>
+        </div>
+      </div>
+    </div>
+    <audio id="minusSound">
+      <source src="sound/minus.ogg" type="audio/ogg" />
+      <source src="sound/minus.mp3" type="audio/mpeg" />
+      Your browser does not support the audio tag.
+    </audio>
+    <audio id="plusSound">
+      <source src="sound/plus.ogg" type="audio/ogg" />
+      <source src="sound/plus.mp3" type="audio/mpeg" />
+      Your browser does not support the audio tag.
+    </audio>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
